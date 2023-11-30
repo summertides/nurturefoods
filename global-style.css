@@ -644,7 +644,7 @@ footer {
 #about-title {
     position: absolute;
     width: 100%;
-    left: 50%; top: 20%;
+    left: 53%; top: 20%;
     transform: translate(-50%, 0%);
 
     font-family: 'Harmond';
@@ -657,15 +657,22 @@ footer {
     color: white;
 }
 
-/* Contact Page */
-#contactsingle {
-    overflow: hidden;
+#about-nurture {
+    position: absolute;
+    width: 50%;
+    left: 53%; top: 45vh;
+    transform: translate(-50%, 0);
+
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    color: white;
 }
 
+/* Contact Page */
 #contact-bg {
     position: absolute;
     left: -40vw;
-    transform: rotate(90deg) scale(0.7);
 
     filter: invert(100%);
     opacity: 0.1;
@@ -677,6 +684,8 @@ footer {
     left: 5vw; top: 30%;
     transform: translate(0, -50%);
 
+    filter: drop-shadow(2px 2px 15px black);
+
     font-family: 'Harmond';
     font-weight: 900;
     font-style: normal;
@@ -686,6 +695,8 @@ footer {
     text-align: left;
 
     color: white;
+
+    z-index: 5;
 }
 
 #contact-btn {
@@ -717,4 +728,88 @@ footer {
 
 #contact-btn:hover #contact-lgo {
     transform: translate(-50%, -50%) rotate(15deg);
+}
+
+.textbox {
+    position: absolute;
+    cursor: text;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 16px;
+    height: 6vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(3px);
+    border-bottom: 2px solid #ffffff;
+    border-left: 0px solid #000000;
+    border-right: 0px solid #000000;
+    border-top: 0px solid #000000;
+    border-radius: 3px;
+    color: white;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+
+.textbox:focus {
+    border-bottom: 2px solid #276477;
+    box-shadow: 0 1px 0 0 rgb(35 38 59 / 5%);
+    outline: none;
+}
+
+#ct-txt1 {
+    width: 6vw;
+    right: 19vw;
+    top: 20vh;
+}
+
+#ct-txt2 {
+    width: 2vw;
+    right: 14vw;
+    top: 20vh;
+}
+
+#ct-txt3 {
+    width: 6vw;
+    right: 5vw;
+    top: 20vh;
+}
+
+#ct-txt4 {
+    width: 16vw;
+    right: 20vw;
+    top: 28vh;
+}
+
+#ct-txt5 {
+    width: 12vw;
+    right: 5vw;
+    top: 28vh;
+}
+
+#ct-txt6 {
+    width: 26vw;
+    height: 14vh;
+    right: 5vw;
+    top: 36vh;
+    padding-top: 8px;
+    resize: none;
+}
+
+#contact-image {
+    position: absolute;
+    object-fit: cover;
+    width: 40vw; height: 65vh;
+    left: 10vw; top: 25vh;
+
+    border-radius: 5vh;
+    opacity: 0.5;
+    filter: grayscale(100%);
+
+    z-index: 1;
+
+    transition: 1s ease;
+}
+
+#contact-image:hover {
+    opacity: 0.7;
+    filter: grayscale(0%);
 }

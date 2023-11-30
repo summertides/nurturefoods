@@ -11,16 +11,21 @@
         <!-- Stylesheets -->
         <link href="global-style.css" type="text/css" rel="stylesheet">
         <link href="nonprofit-style.css" type="text/css" rel="stylesheet">
+        <link href="swup.css" type="text/css" rel="stylesheet">
 
         <!-- Scripts -->
         <script defer src="nonprofit-script.js"></script>
         <script src="global-script.js"></script>
         <script src="https://kit.fontawesome.com/0d39e9f28a.js" crossorigin="anonymous"></script>
+        <script src="swup.js" type="module"></script>
     </head>
 
     <body data-selection="home" data-navigation="false">
+        <!-- SWUP -->
+        <div id="swup-wipe"></div>
+
         <!-- Logo -->
-        <a href="nonprofit.html">
+        <a href="index.html">
             <img id="logo" src="./assets/images/logo.png">
         </a>
 
@@ -44,7 +49,7 @@
 
             <nav id="nav-opt-wrap">
 
-                <a class="nav-opts" id="nav1" href="nonprofit.html">Home</a>
+                <a class="nav-opts" id="nav1" href="index.html">Home</a>
                 <a class="nav-opts" id="nav2" href="about.html">About</a>
                 <a class="nav-opts" id="nav3" href="#">Services</a>
                 <a class="nav-opts" id="nav4" href="#">Journal</a>
@@ -89,7 +94,7 @@
 
         </nav>
 
-        <main>
+        <main id="swup" class="transition-fade">
 
         </main>
 
