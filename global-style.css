@@ -638,7 +638,9 @@ footer {
     top: 0%;
     width: 100%;
 
-    opacity: 0.1
+    pointer-events: none;
+
+    opacity: 0.1;
 }
 
 #about-title {
@@ -665,6 +667,39 @@ footer {
 
     font-family: 'Raleway', sans-serif;
     text-align: center;
+    font-weight: 500;
+    color: white;
+}
+
+#about-image1 {
+    position: absolute;
+    width: 40vw; height: 45vh;
+    left: 5vw; top: 80vh;
+
+    border-radius: 2vw;
+}
+
+#about-subpoint1 {
+    position: absolute;
+    right: 5vw; top: 75vh;
+
+    font-family: 'Harmond';
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+    font-size: 9vh;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+#about-sp1-para {
+    position: absolute;
+    width: 40%;
+    right: 5vw; top: 90vh;
+
+    font-family: 'Raleway', sans-serif;
+    text-align: right;
     font-weight: 500;
     color: white;
 }
