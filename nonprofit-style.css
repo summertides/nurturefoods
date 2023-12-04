@@ -363,7 +363,7 @@
     top: 375vh; left: 50%;
     transform: translate(-50%, 0);
 
-    width: 50vh; height: 50vh;
+    width: 35vh; height: 35vh;
     backdrop-filter: blur(3px);
 
     border-style: solid;
@@ -380,7 +380,7 @@
 
 #actionButton-hoverCircle {
     position: absolute;
-    left: -200%; top: -400%;
+    left: -200%; top: -580%;
 
     width: 200vh; height: 200vh;
     background-color: white;
@@ -396,7 +396,7 @@
 }
 
 #action-button:hover #actionButton-hoverCircle {
-    left: -20%; top: -50%;
+    left: -10%; top: -350%;
 }
 
 #actionButton-txt {
@@ -422,5 +422,5 @@
 
 #action-button:hover #actionButton-txt {
     opacity: 1;
-    font-size: 12vh;
+    font-size: 8vh;
 }

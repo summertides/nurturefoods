@@ -646,7 +646,7 @@ footer {
 #about-title {
     position: absolute;
     width: 100%;
-    left: 53%; top: 20%;
+    left: 50%; top: 20%;
     transform: translate(-50%, 0%);
 
     font-family: 'Harmond';
@@ -662,7 +662,7 @@ footer {
 #about-nurture {
     position: absolute;
     width: 50%;
-    left: 53%; top: 45vh;
+    left: 50%; top: 45vh;
     transform: translate(-50%, 0);
 
     font-family: 'Raleway', sans-serif;
@@ -702,6 +702,166 @@ footer {
     text-align: right;
     font-weight: 500;
     color: white;
+}
+
+#about-belief {
+    position: absolute;
+    left: 50%; top: 135vh;
+    transform: translate(-50%, 0);
+
+    font-family: 'Harmond';
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+    font-size: 9vh;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+#about-image2 {
+    position: absolute;
+    width: 90vw; height: 90vh;
+    left: 5vw; top: 180vh;
+
+    border-radius: 2vw;
+}
+
+#about-sp2-para {
+    position: absolute;
+    width: 50%;
+    left: 50%; top: 280vh;
+    transform: translate(-50%, 0);
+
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+}
+
+#about-image3 {
+    position: absolute;
+    width: 90vw; height: 90vh;
+    left: 5vw; top: 310vh;
+
+    border-radius: 2vw;
+}
+
+#about-belief2 {
+    position: absolute;
+    width: 70%;
+    left: 52%; top: 410vh;
+    transform: translate(-50%, 0);
+
+    font-family: 'Harmond';
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+    font-size: 9vh;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+#about-sp3-para {
+    position: absolute;
+    width: 50%;
+    left: 52%; top: 440vh;
+    transform: translate(-50%, 0);
+
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+}
+
+#about-cta1 {
+    position: absolute;
+    width: 70%;
+    left: 5vw; top: 480vh;
+
+    font-family: 'Harmond';
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+    font-size: 9vh;
+    text-decoration: none;
+    text-align: left;
+    color: white;
+}
+
+#about-action-button {
+    position: absolute;
+    top: 500vh; right: 5vw;
+
+    width: 25vh; height: 25vh;
+    backdrop-filter: blur(3px);
+
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 50vh;
+
+    cursor: pointer;
+
+    overflow: hidden;
+
+    transition: 0.5s ease;
+}
+
+#about-actionButton-hoverCircle {
+    position: absolute;
+    left: -200%; top: -800%;
+
+    width: 200vh; height: 200vh;
+    background-color: white;
+
+    border-radius: 50%;
+    pointer-events: none;
+
+    transition: 0.5s ease;
+}
+
+#about-action-button:hover {
+    width: 60vh;
+}
+
+#about-action-button:hover #about-actionButton-hoverCircle {
+    left: -200%; top: -550%;
+}
+
+#about-actionButton-txt {
+    position: absolute;
+    left: 50%; top: 20%;
+    transform: translate(-50%, -50%);
+
+    width: 120%;
+
+    font-family: 'Harmond';
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+    font-size: 5vh;
+    text-decoration: none;
+    text-align: center;
+
+    color: black;
+    opacity: 0;
+
+    transition: 0.5s ease;
+}
+
+#about-action-button:hover #about-actionButton-txt {
+    opacity: 1;
+    font-size: 8vh;
+}
+
+#about-image4 {
+    position: absolute;
+    width: 90vw; height: 90vh;
+    left: 5vw; top: 540vh;
+
+    border-radius: 2vw;
 }
 
 /* Contact Page */
@@ -847,4 +1007,96 @@ footer {
 #contact-image:hover {
     opacity: 0.7;
     filter: grayscale(0%);
+}
+
+/* Recruit Page */
+#recruit-title {
+    position: absolute;
+    width: 40%;
+    left: 5vw; top: 12vh;
+
+    font-family: 'Harmond';
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+    font-size: 10vh;
+    text-decoration: none;
+    text-align: left;
+    color: white;
+}
+
+#recruit-submit {
+    position: absolute;
+    width: 12vw; height: 8vh;
+    right: 5vw; top: 60vh;
+
+    background-color: white;
+    border-radius: 1vh;
+
+    cursor: pointer;
+
+    transition: 0.4s ease;
+}
+
+#recruit-submit-txt {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    font-family: 'Raleway', sans-serif;
+    text-align: right;
+    font-weight: 500;
+    color: black;
+}
+
+#recruit-image {
+    position: absolute;
+    width: 90vw; height: 90vh;
+    left: 50%; top: 80vh;
+    transform: translate(-50%, 0);
+
+    border-radius: 2.5vh;
+}
+
+#recruit-title2 {
+    position: absolute;
+    width: 40%;
+    left: 5vw; top: 180vh;
+
+    font-family: 'Harmond';
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+    font-size: 10vh;
+    text-decoration: none;
+    text-align: left;
+    color: white;
+}
+
+#rc-txt1 {
+    position: absolute;
+    width: 24vw;
+    right: 13vw; top: 190vh;
+}
+
+#rc-txt2 {
+    position: absolute;
+    width: 4vw;
+    right: 5vw; top: 190vh;
+}
+
+#rc-txt3 {
+    position: absolute;
+    width: 36vw;
+    right: 5vw; top: 200vh;
+}
+
+#page-extender {
+    position: absolute;
+    top: 250vh;
+    height: 10vh; width: 100%;
+}
+
+#recruit-submit:hover {
+    transform: scale(0.9);
 }
